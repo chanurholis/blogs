@@ -5,6 +5,5 @@ export default axios.create({
   headers: {
     "Content-type": "application/json",
     "x-api-key": "301cbe699ebe423b8b50154825aba47f",
-    "Access-Control-Allow-Origin": "*",
   },
 });
