@@ -4,7 +4,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   data() {
     return {
-      data: new Date().getFullYear(),
+      year: new Date().getFullYear(),
     };
   },
 });
@@ -12,6 +12,6 @@ export default defineComponent({
 
 <template>
   <a-layout-footer style="text-align: center">
-    Blogs ©{{ data }} Created by Chacha Nurholis
+    Blogs ©{{ year }} Created by Chacha Nurholis
   </a-layout-footer>
 </template>

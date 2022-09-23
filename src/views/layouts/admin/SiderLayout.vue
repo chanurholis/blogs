@@ -4,7 +4,7 @@ import { defineComponent, ref } from "vue";
 import { PieChartOutlined } from "@ant-design/icons-vue";
 import { RouterLink } from "vue-router";
 
-import { useMenuStore } from "@/stores/menu";
+import { useMenuStore } from "@/stores/admin/menu";
 
 export default defineComponent({
   name: "SiderLayout",
