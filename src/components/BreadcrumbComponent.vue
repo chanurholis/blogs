@@ -9,7 +9,10 @@ export default defineComponent({
     // code ...
   },
   props: {
-    menus: Array,
+    menus: {
+      type: Array,
+      required: true,
+    },
   },
 });
 </script>
