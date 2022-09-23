@@ -1,14 +1,6 @@
 import { defineStore } from "pinia";
 import { PieChartOutlined, EditOutlined } from "@ant-design/icons-vue";
 
-// type menus = {
-//   key: any;
-//   name: string;
-//   icon: any;
-//   isParent: boolean;
-//   subMenus: any;
-// };
-
 const DashboarMenudIcon = PieChartOutlined;
 const BlogMenuIcon = EditOutlined;
 
